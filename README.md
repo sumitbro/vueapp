@@ -36,7 +36,11 @@ docker build -t vueapp .
 ```
 docker run --rm -it -p 8080:80 vueapp
 ```
+![deploy_using_docker](https://user-images.githubusercontent.com/49742337/228188674-3ee88b6d-f560-440a-80ad-d24107640bd7.PNG)
 ### Navigate to http://localhost:8080, and you should now see the Vue app. ThankYou.
+
+## (Note: I have used the Azure virtual machine for the deployment purpose so i used public IP addresss/8080 to see my live vuejs application)
+![vuejsapp_live](https://user-images.githubusercontent.com/49742337/228189343-d8e84f2f-71c2-41e2-b425-732e99f9c35e.PNG)
 
 
 ### Summary:
