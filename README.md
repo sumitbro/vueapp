@@ -10,10 +10,10 @@
 ### create a Dockerfile inside vueapp and write a code. This Dockerfile uses a two-stage build process, where the first stage installs the app dependencies and builds the app, and the second stage uses the nginx image to serve the compiled app.
 
 first stage :
-a. Use a node image
-b. Copy all our Vue files into a working directory
-c. Install the project dependencies with yarn
-d. Build the app with yarn
+# a. Use a node image
+# b. Copy all our Vue files into a working directory
+# c. Install the project dependencies with yarn
+# d. Build the app with yarn
 
 second stage:
 a. Use an nginx image
