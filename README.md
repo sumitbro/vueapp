@@ -25,6 +25,7 @@ d. Specify the entrypoint for our container to run nginx
 ### Build a image 
 ```
 docker build -t vueapp .
+
 ```
 ### Now that our image is built, we can start a container with the following command, which will serve our app on port 8080
 ```
